@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "CF Problem Explorer",
+  "version": "1.0.0",
+  "description": "Explore any Codeforces profile by rating: solved, upsolve queue, tag stats and practice suggestions.",
+  "content_scripts": [
+    {
+      "matches": ["https://codeforces.com/profile/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "host_permissions": ["https://codeforces.com/*"]
+}
