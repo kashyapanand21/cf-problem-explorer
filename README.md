@@ -4,8 +4,6 @@ A Chrome extension that adds a **problem explorer** to every Codeforces profile 
 
 ![CF Problem Explorer preview](screenshots/preview.png)
 
-> The screenshot above uses sample data. Replace it with a real screenshot of your own profile.
-
 ## Features
 
 - **Filter by rating range** (for example 900 to 1200), with clickable chips showing how many problems exist at each rating.
